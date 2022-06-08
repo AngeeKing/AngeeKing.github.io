@@ -432,8 +432,8 @@ body {
    .stay-safe {
       padding: 80px 0px;
    }
-   .stay-safe__media {
-      padding: 0px 0px 0px 47px;
+   /*.stay-safe__media {
+      padding: 0px 0px 0px 47px;*/
    }
 }
 @media (max-width: 787.98px) {
@@ -767,14 +767,14 @@ color: #000000;
 .footer__container {
 
 }
-.footer__item {
+.footer__items {
    display: flex;
    column-gap: 50px;
    row-gap: 20px;
    justify-content: center;
    align-items: center;
 }
-@media (max-width: 50px){
+@media (max-width: 500px){
    .footer {
    padding: 30px 0;
    }
